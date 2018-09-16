@@ -1,0 +1,20 @@
+
+.block {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+}
+
+.footer {
+    background-color: #ccc;
+    height: 100px;
+}
+
+.header {
+    display: flex
+}
+
+img {
+    width: 59px;
+    height: 51px;
+}
