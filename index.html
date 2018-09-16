@@ -5,22 +5,66 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
 </head>
 
 <body>
-    <div class="header">
-        <img src="/img/logo.png" alt="Логотип">
-        <p>BRAND</p>
-        <select id="brows">
-
-            <option value=”GR”>Green</option>
-
-            <option value=”YE”>Yellow</option>
-
-            <option value=”BL”>Black</option>
-
-        </select>
-    </div>
+    <header class="header">
+        <div class="conteiner header-flex">
+            <div class="header-left">
+                <a class="logo" href="#"><img src="img/logo.png" alt="logo">
+                    <p class="bran">BRAN</p><span class="D">D</span>
+                </a>
+                <form class="header-form" action="#">
+                    <select class="browse" name="brows" id="brows">
+                        <optgroup class="women" label="WOMEN">
+                            <option class="browse1" value="browse">Browse</option>
+                            <option class="browse2" value="Dresses">Dresses</option>
+                            <option class="browse2" value="Tops">Tops</option>
+                            <option class="browse2" value="Sweaters">Sweaters/Knits</option>
+                            <option class="browse2" value="Jackets">Jackets/Coats</option>
+                            <option class="browse2" value="Blazers">Blazers</option>
+                            <option class="browse2" value="Denim">Denim</option>
+                            <option class="browse2" value="Leggings">Leggings/Pants</option>
+                            <option class="browse2" value="Skirts">Skirts/Shorts</option>
+                            <option class="browse2" value="Accessories">Accessories</option>
+                        </optgroup>
+                        <optgroup class="women" label="MEN">
+                        <option class="browse2" value="Tees">Tees/Tank tops</option>
+                        <option class="browse2" value="Shirts">Shirts/Polos</option>
+                        <option class="browse2" value="Sweaters">Sweaters</option>
+                        <option class="browse2" value="Sweatshirts">Sweatshirts/Hoodies</option>
+                        <option class="browse2" value="Blazers">Blazers</option>
+                        <option class="browse2" value="Jackets">Jackets/vests</option>
+                        </optgroup>
+                    </select>
+                    <input class="search" type="text" placeholder="Search for Item...">
+                    <button type="submit" class="batton-search" name="batton-search" id="batton-search"></button>
+                </form>
+            </div>
+            <div class="header-right">
+                <img class="cart-img" src="img/Forma_1.svg" alt="cart">
+                <select class="batton-site my-acc" href="#">
+                            <option class="my-acc1" value="browse">My account</option>
+                            <option class="Rebox" value="Rebox"><img src="img/Layer_43.jpg">Rebox Zane</option>
+                            <option class="Rebox" value="Tops">Rebox Zane</option>
+                        </select>
+            </div>
+        </div>
+    </header>
+    <nav class="navigation">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Man</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Accoseriese</a></li>
+            <li><a href="#">Featured</a></li>
+            <li><a href="#">Hot Deals</a></li> 
+        </ul>
+    </nav>
 </body>
 
 </html>
