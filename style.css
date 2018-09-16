@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body {
+}
+
 .block {
     width: 300px;
     height: 300px;
@@ -26,7 +29,7 @@ img {
     height: 51px;
 }
 
-.conteiner {
+.container {
     width: 1140px;
     margin: 0 auto;
 }
@@ -104,11 +107,11 @@ img {
 
 .browse {
     width: 87px;
-height: 38px;
-border-radius: 3px 0 0 3px;
-border: 1px solid #e6e6e6;
-background-color: #cdcdcc;
-background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+    height: 38px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
     display: flex;
     align-items: center;
     padding-left: 15px;
@@ -121,25 +124,22 @@ background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
 .browse2 {
     display: flex;
     align-items: center;
-color: #4f4f4f;
-font-family: "Lato", sans-serif;
-font-weight: 400;
-letter-spacing: 0.35px;
+    color: #4f4f4f;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.35px;
 }
 
 .women {
-    width: 262px;
-height: 530px;
-border-radius: 5px;
-background-color: #ffffff;
+   
 }
 
 .search {
     width: 317px;
-height: 36px;
-border-radius: 0 3px 3px 0;
-border: 1px solid #e6e6e6;
-background-color: #ffffff;
+    height: 36px;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
     padding-left: 16px;
 }
 
@@ -149,30 +149,158 @@ background-color: #ffffff;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-height: 38px;
+    height: 38px;
     width: 36px;
-border-radius: 0 3px 3px 0;
-border: 1px solid #e6e6e6;
-background-color: #ffffff;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
 }
 
 .cart-img {
     width: 32px;
-height: 29px;
+    height: 29px;
     padding-right: 26px;
 }
 
 .my-acc1 {
-display: none;
+    display: none;
 }
 
 .Rebox {
-width: 74px;
-height: 10px;
-color: #222222;
-font-family: Lato;
-font-size: 12px;
-font-weight: 700;
-text-transform: uppercase;
+    width: 74px;
+    height: 10px;
+    color: #222222;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
     background-color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.menu_link {
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.banner {
+    height: 613px;
+    background-color: #e8e8e8;
+}
+
+.banner-block {
+    height: 100%;
+    background: url(img/Layer_24.jpg) 0 -51px;
+}
+
+.banner-text {
+    margin-top: 224px;
+    border-left: 12px solid #f16d7f;
+    float: left;
+    padding-left: 12px;
+}
+
+.the-brand {
+    color: #222222;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.fashion {
+    color: #222222;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 31px;
+}
+
+.fash {
+    color: #f16d7f;
+}
+
+.news1 {
+    background: url(img/Layer_30.jpg);
+    width: 560px;
+    height: 515px;
+    padding-top: 26px;
+    margin-top: 51px;
+}
+
+.news1-text {
+    width: 175px;
+height: 82px;
+background-color: #ffffff;
+}
+
+.hotdeal {
+    font-family: "Lato - Black", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 16px;
+    padding-left: 19px;
+    letter-spacing: 0.45px;
+}
+
+.formen {
+    color: #f16d7f;
+font-size: 30px;
+letter-spacing: 0.75px;
+    font-family: "Lato - Black", sans-serif;
+    padding-left: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.news2 {
+     background: url(img/Layer_32.jpg);
+    width: 560px;
+    height: 235px;
+    padding-top: 26px;
+    margin-top: -230px;;
+    margin-left: -90px;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+}
+
+.offer {
+  font-family: "Lato - Black", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 16px;
+    padding-left: 19px;
+    letter-spacing: 0.45px;  
+}
+
+.women1 {
+    color: #f16d7f;
+font-size: 30px;
+letter-spacing: 0.75px;
+    font-family: "Lato - Black", sans-serif;
+    padding-left: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.news2-text {
+     width: 175px;
+height: 82px;
+background-color: #ffffff;
 }
