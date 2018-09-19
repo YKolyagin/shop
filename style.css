@@ -519,6 +519,7 @@ text-transform: uppercase;
 
 .items {
     margin-top: 100px;
+    height: 977px;
 }
 
 .add-img {
@@ -534,4 +535,108 @@ text-transform: uppercase;
 
 .add-to {
     margin-right: 10px;
+}
+
+.strelka {
+    width: 15px;
+height: 7px;
+color: #ffffff;
+font-family: "Font Awesome";
+font-size: 15px;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: 0.38px;
+}
+
+.all-products {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.browse-all-prod {
+    color: #ffffff;
+font-family: "Lato", sans-serif;
+font-size: 16px;
+font-weight: 700;
+letter-spacing: 0.4px;
+}
+
+.offer {
+    height: 529px;
+    background-color: #222224;
+    margin-top: 113px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-img {
+    height: 529px;
+}
+
+.offer-text-box {
+    position: relative;
+    top: -550px;
+    height: 78px;
+    margin-top: 146px;
+    margin-left: 39px;
+}
+
+.offer-text {
+    color: #ffffff;
+font-family: "Lato", sans-serif;
+font-size: 54px;
+font-weight: 700;
+text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.offer-pink {
+    color: #f16d7f;
+}
+
+.offer-text1 {
+    color: #ffffff;
+font-family: "Lato", sans-serif;
+font-size: 32px;
+font-weight: 700;
+text-transform: uppercase;
+    letter-spacing: 0.9px;
+}
+
+.article {
+    display: flex;
+    align-content: space-between;
+    margin-top: 48px;
+}
+
+.delivery {
+    padding-left: 22px;
+}
+
+.delivery-text {
+    margin-left: 32px;
+}
+
+.article-p {
+    margin-top: 17px;
+    margin-right: 43px;
+    color: #fbfbfb;
+font-family: "Lato";
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0.35px;
+}
+
+.article-h2 {
+    color: #fbfbfb;
+font-family: "Lato";
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 0.5px;
+}
+
+.feature-box {
+    height: 529px;
 }
