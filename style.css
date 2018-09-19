@@ -139,6 +139,7 @@ letter-spacing: 0.38px;
     border: 1px solid #e6e6e6;
     background-color: #ffffff;
     padding-left: 16px;
+    padding-right: 16px;
     font-family: "Lato", sans-serif;
 }
 
@@ -330,7 +331,7 @@ height: 82px;
 }
 
 .news2-text1 {
-     padding-left: 10px;
+     padding-left: 19px;
     padding-top: 16px;
     color: #222222;
 font-family: "Lato - Black", sans-serif;
@@ -341,7 +342,7 @@ letter-spacing: 0.45px;
 }
 
 .news2-text2 {
-    padding-left: 10px;
+    padding-left: 19px;
     padding-bottom: 16px;
      color: #f16d7f;
 font-family: "Lato - Black", sans-serif;
@@ -353,25 +354,23 @@ letter-spacing: 0.75px;
 
 
 .news3-text1 {
-    padding-left: 10px;
+    padding-left: 19px;
     padding-top: 16px;
     color: #222222;
 font-family: "Lato - Black", sans-serif;
 font-size: 18px;
 font-weight: 700;
 text-transform: uppercase;
-letter-spacing: 0.45px;
 }
 
 .news3-text2 {
-       padding-left: 10px;
+       padding-left: 19px;
     padding-bottom: 16px;
      color: #f16d7f;
 font-family: "Lato - Black", sans-serif;
 font-size: 30px;
 font-weight: 700;
 text-transform: uppercase;
-letter-spacing: 0.75px;
 }
 
 .news3-text {
@@ -386,14 +385,14 @@ height: 82px;
 .news4-text {
        position: relative;
     top: -546px;
-    width: 162px;
+    width: 180px;
 height: 82px;
     background-color: #ffffff;
     margin-top: 25px;
 }
 
 .news4-text1 {
-    padding-left: 10px;
+    padding-left: 19px;
     padding-top: 16px;
     color: #222222;
 font-family: "Lato - Black", sans-serif;
@@ -404,7 +403,7 @@ letter-spacing: 0.45px;
 }
 
 .news4-text2 {
-    padding-left: 10px;
+    padding-left: 19px;
     padding-bottom: 16px;
      color: #f16d7f;
 font-family: "Lato - Black", sans-serif;
@@ -457,6 +456,7 @@ font-family: "Lato", sans-serif;
 font-size: 13px;
 font-weight: 700;
 text-transform: uppercase;
+    word-spacing: 3px;
 }
 
 .price {
