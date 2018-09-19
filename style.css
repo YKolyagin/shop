@@ -195,6 +195,10 @@ letter-spacing: 0.38px;
     font-family: "Lato", sans-serif;
 }
 
+.menu_link:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
+}
+
 .banner {
     height: 613px;
     background-color: #e8e8e8;
