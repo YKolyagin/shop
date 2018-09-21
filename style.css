@@ -76,6 +76,7 @@ body {}
 .batton-site:hover {
     background-color: #ffffff;
     color: #f16d7f;
+    border: 1px solid #f16d7f;
 }
 
 .my-acc {
@@ -770,6 +771,12 @@ font-family: "Lato";
 font-size: 14px;
 font-weight: 400;
 letter-spacing: 0.35px;
+}
+
+.submit:hover {
+    background-color: #ffffff;
+    color: #f16d7f;
+    border: 1px solid #f16d7f;
 }
 
 .brand-nav {
