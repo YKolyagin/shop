@@ -642,6 +642,8 @@ a {
 .comment-subscribe {
     height: 438px;
     margin-top: 97px;
+    background: url(img/2-layers.jpg) no-repeat;
+    background-size: cover;
 }
 
 .com-img {
@@ -650,7 +652,7 @@ a {
 }
 
 .comment-img-text {
-        display: flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -662,11 +664,11 @@ a {
 .comment-text1 {
     width: 386px;
     color: #222224;
-font-family: "Lato";
-font-size: 16px;
-font-style: italic;
-line-height: 20px;
-letter-spacing: 0.4px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+    letter-spacing: 0.4px;
 }
 
 .comment-img {
@@ -677,18 +679,18 @@ letter-spacing: 0.4px;
     margin-top: 19px;
     width: 82px;
     color: #222224;
-font-family: "Lato";
-font-size: 12px;
-font-weight: 300;
-line-height: 14px;
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
 }
 
 .bin {
     color: #f16d7f;
-font-size: 16px;
-font-weight: 700;
+    font-size: 16px;
+    font-weight: 700;
     font-family: "Lato";
-line-height: 20px;
+    line-height: 20px;
 }
 
 .comment-dash {
@@ -697,20 +699,22 @@ line-height: 20px;
 
 
 .sea {
-        height: 438px;
+    height: 438px;
+    display: flex;
+    justify-content: center;
 }
 
 .grey {
     height: 438px;
     margin-top: -438px;
     opacity: 0.5;
+    display: flex;
+    justify-content: center;
 }
 
 .com-sub {
     display: flex;
     justify-content: center;
-    margin-top: -438px;
-    position: relative;
 }
 
 .subscribe {
@@ -720,22 +724,22 @@ line-height: 20px;
 
 .subscr {
     color: #222224;
-font-family: "Lato";
-font-weight: 400;
-font-size: 24px;
-letter-spacing: 0.6px;
-line-height: 54px;
-text-transform: uppercase;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 54px;
+    text-transform: uppercase;
 }
 
 .sub-p {
     color: #222224;
-font-family: "Lato";
-font-size: 14px;
-font-weight: 400;
-letter-spacing: 0.35px;
-line-height: 24px;
-text-transform: uppercase;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 24px;
+    text-transform: uppercase;
 }
 
 .sub-text {
@@ -743,34 +747,35 @@ text-transform: uppercase;
 }
 
 .email {
-    width: 334px;
-height: 46px;
-border-radius: 23px;
-background-color: #e1e1e1;
+    padding-right: 50px;
+    height: 46px;
+    border-radius: 23px;
+    background-color: #e1e1e1;
     border: none;
     padding-left: 28px;
     opacity: 0.67;
-color: #222224;
-font-family: "Lato";
-font-size: 14px;
-font-weight: 400;
-line-height: 54px;
+    color: #222224;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 54px;
     margin-top: 35px;
+    outline: none;
 }
 
 .submit {
     width: 104px;
-height: 45px;
-border-radius: 0 23px 23px 0;
-background-color: #f16d7f;
+    height: 45px;
+    border-radius: 0 23px 23px 0;
+    background-color: #f16d7f;
     border: none;
     margin-left: -30px;
     position: relative;
     color: #ffffff;
-font-family: "Lato";
-font-size: 14px;
-font-weight: 400;
-letter-spacing: 0.35px;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
 }
 
 .submit:hover {
@@ -787,16 +792,16 @@ letter-spacing: 0.35px;
 .brand-text {
     width: 427px;
     color: #898989;
-font-family: "Lato";
-font-size: 14px;
-font-weight: 300;
-line-height: 24px;
-letter-spacing: 0.35px;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.35px;
 }
 
 .info {
     list-style-type: none;
-    
+
 }
 
 .footer-nav {
@@ -812,24 +817,28 @@ letter-spacing: 0.35px;
 }
 
 .nav-info {
-line-height: 42px;
+    line-height: 42px;
 }
 
 .menu_info {
     color: #898989;
-font-family: "Lato";
-font-size: 16px;
-font-weight: 400;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu_info:hover {
+    color: #f16d7f;
 }
 
 .menu_info-a {
     color: #f16d7f;
-font-family: "Lato";
-font-size: 18px;
-font-weight: 700;
-line-height: 26px;
-text-transform: uppercase;
-letter-spacing: 0.45px;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
 }
 
 .company {
@@ -846,12 +855,12 @@ letter-spacing: 0.45px;
 
 .menu_comp-a {
     color: #f16d7f;
-font-family: "Lato";
-font-size: 18px;
-font-weight: 700;
-line-height: 26px;
-text-transform: uppercase;
-letter-spacing: 0.45px;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
 }
 
 .nav-comp {
@@ -860,14 +869,18 @@ letter-spacing: 0.45px;
 
 .comp {
     list-style-type: none;
-    
+
 }
 
 .menu_about {
     color: #898989;
-font-family: "Lato";
-font-size: 16px;
-font-weight: 400;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu_about:hover {
+    color: #f16d7f
 }
 
 .information {
@@ -883,13 +896,13 @@ font-weight: 400;
 }
 
 .menu_shop-a {
-     color: #f16d7f;
-font-family: "Lato";
-font-size: 18px;
-font-weight: 700;
-line-height: 26px;
-text-transform: uppercase;
-letter-spacing: 0.45px;
+    color: #f16d7f;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
 }
 
 .nav-shop {
@@ -902,17 +915,21 @@ letter-spacing: 0.45px;
 
 .menu_shop {
     color: #898989;
-font-family: "Lato";
-font-size: 16px;
-font-weight: 400;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu_shop:hover {
+    color: #f16d7f;
 }
 
 .right-text {
     color: #7a7a7a;
-font-family: "Lato";
-font-size: 16px;
-font-weight: 400;
-letter-spacing: 0.4px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
     margin-top: 32px;
 }
 
@@ -920,7 +937,6 @@ letter-spacing: 0.4px;
     display: flex;
     justify-content: center;
     background-color: #e6e6e6;
-    padding-bottom: 32px;
     margin-top: 89px;
 }
 
@@ -928,7 +944,139 @@ letter-spacing: 0.4px;
     margin-left: 690px;
 }
 
-.face {
+
+
+.mega-box {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    position: absolute;
+    display: none;
+    top: 47px;
+}
+
+.mega-box:before {
+    content: "";    
+    display: block;
+    height: 12px;
+    width: 12px;
+    background-color: #ffffff;
+    position: absolute;
+     top: -7px;
+    left: 37px;
+    transform: rotate(45deg);
+    border-top: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+}
+
+.menu-list {
+    position: relative;
+}
+
+.menu-list:hover .mega-box {
+    display: flex;
+}
+
+.mega-flex-heading {
+    color: #232323;
+font-family: "Lato";
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+    border-bottom: 1px solid #e8e8e8;
+    width: 235px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.mega-menu {
+    list-style-type: none;
+}
+
+.mega-menu-links:hover {
+    color: #f16d7f;
+}
+.mega-menu-links {
+    color: #646464;
+font-family: "Lato";
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+}
+
+
+.mega-flex {
+    margin-right: 40px;
+}
+
+.mega-flex:last-of-type {
+    margin-right: 0;
+}
+
+.mega-menu3 {
+    padding-top: 22px;
+}
+
+.mega-menu-img {
+    margin-top: 22px;
+}
+
+.menu-list-last:hover .mega-box-right {
+    right: 0;
+}
+
+
+
+.mega-box-right {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    position: absolute;
+    display: none;
+    top: 47px;
+}
+
+.mega-box-right:before {
+    content: "";    
+    display: block;
+    height: 12px;
+    width: 12px;
+    background-color: #ffffff;
+    position: absolute;
+     top: -7px;
+    right: 55px;
+    transform: rotate(45deg);
+    border-top: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+}
+
+.menu-list:hover .mega-box-right {
+    display: flex;
+}
+
+
+
+.icon {
+    width: 32px;
+height: 32px;
+background-color: #ffffff;
+    display: block;
+    text-align: center;
+    line-height: 32px;
+    color: #b2b2b2;
+}
+
+.icon:hover {
+    background-color: #f16d7f;
+    color: #f7f7f8;
+}
+
+.faceb {
+        display: flex;
+    width: 191px;
+    justify-content: space-between;
         margin-top: 24px;
-    margin-right: 8px;
+    margin-bottom: 24px;
 }
