@@ -71,6 +71,8 @@ body {}
     padding: 13px 19px;
     display: flex;
     align-items: center;
+    list-style-type: none;
+    border: 1px solid #f16d7f;
 }
 
 .batton-site:hover {
@@ -79,15 +81,12 @@ body {}
     border: 1px solid #f16d7f;
 }
 
-.my-acc {
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 32px;
-    text-decoration: none;
-    font-family: "Lato", sans-serif;
-    letter-spacing: 0.38px;
+.batton-site:hover .my-acc{
+    background-color: #ffffff;
+    color: #f16d7f;
 }
+
+
 
 .bran {
     font-family: "Lato Light", sans-serif;
@@ -109,7 +108,6 @@ body {}
 }
 
 .browse {
-    width: 87px;
     height: 38px;
     border-radius: 3px 0 0 3px;
     border: 1px solid #e6e6e6;
@@ -125,15 +123,16 @@ body {}
 }
 
 .browse2 {
-    display: flex;
-    align-items: center;
     color: #4f4f4f;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     letter-spacing: 0.35px;
 }
 
-.women {}
+.women {
+    border-radius: 5px;
+background-color: #ffffff;
+}
 
 .search {
     width: 317px;
@@ -518,7 +517,7 @@ a {
 
 .items {
     margin-top: 100px;
-    height: 977px;
+    height: 100%;
 }
 
 .add-img {
@@ -562,7 +561,7 @@ a {
 }
 
 .offer {
-    height: 529px;
+    height: 100%;
     background-color: #222224;
     margin-top: 113px;
     display: flex;
@@ -1079,4 +1078,173 @@ background-color: #ffffff;
     justify-content: space-between;
         margin-top: 24px;
     margin-bottom: 24px;
+}
+
+.my-acc {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.38px;
+    display: flex;
+    align-items: center;
+}
+
+.my-acc-text {
+    margin-right: 8px;
+}
+
+.acc-box {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    position: absolute;
+    display: none;
+    top: 93px;
+    right: -220px;
+    z-index: 1;
+}
+
+.card-hover:hover .acc-box {
+    display: flex;
+}
+
+.acc-box:before {
+    content: "";    
+    display: block;
+    height: 12px;
+    width: 12px;
+    background-color: #ffffff;
+    position: absolute;
+     top: -7px;
+    left: 37px;
+    transform: rotate(45deg);
+    border-top: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+}
+
+
+
+.list-acc {
+    position: relative;
+}
+
+.img-link {
+    position: relative;
+}
+
+.card-hover {
+    display: flex;
+    align-items: center;
+    padding-top: 9px;
+    height: 100%;
+    position: relative;
+}
+
+.product-card {
+    display: flex;
+    justify-content: space-between;
+    height: 101px;
+    width: 262px;
+    border-bottom: 1px solid #ededed;
+}
+
+.product-name-card {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 23px;
+    margin-left: -43px;
+}
+
+.acc-flex {
+    width: 100%;
+}
+
+.product-delete {
+        display: flex;
+    align-items: center;
+    color: #c0c0c0;
+font-family: "Font Awesome";
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.name-prod-card {
+    color: #222222;
+font-family: "Lato";
+font-size: 12px;
+font-weight: 800;
+text-transform: uppercase;
+}
+
+.stars {
+    color: #e4af48;
+font-family: "Font Awesome";
+font-size: 12px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.price-card {
+    color: #f16d7f;
+font-family: "Lato";
+font-size: 12px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.x {
+    font-size: 10px;
+}
+
+.total-500 {
+    color: #222222;
+font-family: "Lato";
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+    text-align: right;
+    margin-top: 19px;
+}
+
+.total {
+    float: left;
+}
+
+.500usd {
+    float:right;
+}
+
+.checkout {
+height: 50px;
+border: 1px solid #eaeaea;
+    align-items: center;
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+    color: #4a4a4a;
+}
+
+.checkout:hover {
+    border: 1px solid #f16d7f;
+    color: #f16d7f;
+}
+
+.checkout-link {
+   
+font-family: "Lato";
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase; 
+}
+
+
+
+.card-buttom {
+    margin-top: 21px;
 }
