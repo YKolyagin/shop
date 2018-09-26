@@ -3,7 +3,8 @@
     padding: 0;
 }
 
-body {}
+body {
+}
 
 .block {
     width: 300px;
@@ -22,7 +23,6 @@ body {}
     border: 1px solid #ececec;
     background-color: #ffffff
 }
-
 
 .container {
     width: 1140px;
@@ -82,17 +82,15 @@ body {}
     border: 1px solid #f16d7f;
 }
 
-.batton-site:hover .my-acc{
+.batton-site:hover .my-acc {
     background-color: #ffffff;
     color: #f16d7f;
 }
 
-
-
 .bran {
     font-family: "Lato Light", sans-serif;
     font-weight: 300;
-    letter-spacing: 0.68px;
+    letter-spacing: 0;
     padding-left: 13px;
     padding-top: 45px;
     padding-bottom: 36px;
@@ -101,9 +99,8 @@ body {}
 .D {
     color: #f16d7f;
     font-family: "Lato - Black", sans-serif;
-    ;
     font-weight: 400;
-    letter-spacing: 0.68px;
+    letter-spacing: 0;
     padding-top: 45px;
     padding-bottom: 36px;
 }
@@ -112,8 +109,7 @@ body {}
     height: 38px;
     border-radius: 3px 0 0 3px;
     border: 1px solid #e6e6e6;
-    background-color: #cdcdcc;
-    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+    background: #cdcdcc linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
     display: flex;
     align-items: center;
     padding-left: 15px;
@@ -127,12 +123,12 @@ body {}
     color: #4f4f4f;
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    letter-spacing: 0.35px;
+    letter-spacing: 0;
 }
 
 .women {
     border-radius: 5px;
-background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .search {
@@ -147,16 +143,13 @@ background-color: #ffffff;
 }
 
 .batton-search {
-    background-image: url('img/search.png');
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     height: 38px;
     width: 36px;
     border-radius: 0 3px 3px 0;
     border: 1px solid #e6e6e6;
-    background-color: #ffffff;
+    background: #ffffff url('img/search.png') no-repeat center;
 }
 
 .cart-img {
@@ -173,7 +166,7 @@ background-color: #ffffff;
     width: 74px;
     height: 10px;
     color: #222222;
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -265,7 +258,6 @@ background-color: #ffffff;
     padding-top: 20px;
 }
 
-
 .news-left {
     display: flex;
     flex-direction: column;
@@ -311,7 +303,7 @@ background-color: #ffffff;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.45px;
+    letter-spacing: 0;
 }
 
 .news1-text2 {
@@ -322,7 +314,7 @@ background-color: #ffffff;
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.75px;
+    letter-spacing: 0;
 }
 
 a {
@@ -346,7 +338,7 @@ a {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.45px;
+    letter-spacing: 0;
 }
 
 .news2-text2 {
@@ -357,9 +349,8 @@ a {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.75px;
+    letter-spacing: 0;
 }
-
 
 .news3-text1 {
     padding-left: 19px;
@@ -407,7 +398,7 @@ a {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.45px;
+    letter-spacing: 0;
 }
 
 .news4-text2 {
@@ -418,7 +409,7 @@ a {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.75px;
+    letter-spacing: 0;
 }
 
 .fut {
@@ -429,7 +420,7 @@ a {
     font-weight: 700;
     line-height: 54px;
     font-family: "Lato", sans-serif;
-    letter-spacing: 0.75px;
+    letter-spacing: 0;
 }
 
 .shop {
@@ -439,7 +430,7 @@ a {
     font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0.35px;
+    letter-spacing: 0;
 }
 
 .items-up {
@@ -504,7 +495,6 @@ a {
 .add {
     position: absolute;
     top: 98px;
-    display: flex;
     justify-content: center;
     width: 100%;
     display: none;
@@ -513,8 +503,6 @@ a {
 .item {
     display: block;
 }
-
-
 
 .items {
     margin-top: 100px;
@@ -540,11 +528,11 @@ a {
     width: 15px;
     height: 7px;
     color: #ffffff;
-    font-family: "Font Awesome";
+    font-family: "Font Awesome", sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 54px;
-    letter-spacing: 0.38px;
+    letter-spacing: 0;
 }
 
 .all-products {
@@ -558,7 +546,7 @@ a {
     font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 700;
-    letter-spacing: 0.4px;
+    letter-spacing: 0;
 }
 
 .offer {
@@ -599,7 +587,7 @@ a {
     font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.9px;
+    letter-spacing: 0;
 }
 
 .article {
@@ -620,19 +608,19 @@ a {
     margin-top: 17px;
     margin-right: 43px;
     color: #fbfbfb;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
-    letter-spacing: 0.35px;
+    letter-spacing: 0;
 }
 
 .article-h2 {
     color: #fbfbfb;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 20px;
     font-weight: 700;
-    letter-spacing: 0.5px;
+    letter-spacing: 0;
 }
 
 .feature-box {
@@ -664,11 +652,11 @@ a {
 .comment-text1 {
     width: 386px;
     color: #222224;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-style: italic;
     line-height: 20px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0;
 }
 
 .comment-img {
@@ -679,7 +667,7 @@ a {
     margin-top: 19px;
     width: 82px;
     color: #222224;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 300;
     line-height: 14px;
@@ -689,14 +677,13 @@ a {
     color: #f16d7f;
     font-size: 16px;
     font-weight: 700;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     line-height: 20px;
 }
 
 .comment-dash {
     margin-top: 41px;
 }
-
 
 .sea {
     height: 438px;
@@ -724,20 +711,20 @@ a {
 
 .subscr {
     color: #222224;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 24px;
-    letter-spacing: 0.6px;
+    letter-spacing: 0;
     line-height: 54px;
     text-transform: uppercase;
 }
 
 .sub-p {
     color: #222224;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0.35px;
+    letter-spacing: 0;
     line-height: 24px;
     text-transform: uppercase;
 }
@@ -755,7 +742,7 @@ a {
     padding-left: 28px;
     opacity: 0.67;
     color: #222224;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 54px;
@@ -772,10 +759,10 @@ a {
     margin-left: -30px;
     position: relative;
     color: #ffffff;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0.35px;
+    letter-spacing: 0;
 }
 
 .submit:hover {
@@ -792,11 +779,11 @@ a {
 .brand-text {
     width: 427px;
     color: #898989;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
-    letter-spacing: 0.35px;
+    letter-spacing: 0;
 }
 
 .info {
@@ -810,8 +797,6 @@ a {
     justify-content: space-between;
 }
 
-
-
 .menu-info {
     margin-bottom: 45px;
 }
@@ -822,7 +807,7 @@ a {
 
 .menu_info {
     color: #898989;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -833,12 +818,12 @@ a {
 
 .menu_info-a {
     color: #f16d7f;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
-    letter-spacing: 0.45px;
+    letter-spacing: 0;
 }
 
 .company {
@@ -855,12 +840,12 @@ a {
 
 .menu_comp-a {
     color: #f16d7f;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
-    letter-spacing: 0.45px;
+    letter-spacing: 0;
 }
 
 .nav-comp {
@@ -874,7 +859,7 @@ a {
 
 .menu_about {
     color: #898989;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -897,12 +882,12 @@ a {
 
 .menu_shop-a {
     color: #f16d7f;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
-    letter-spacing: 0.45px;
+    letter-spacing: 0;
 }
 
 .nav-shop {
@@ -915,7 +900,7 @@ a {
 
 .menu_shop {
     color: #898989;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -926,10 +911,10 @@ a {
 
 .right-text {
     color: #7a7a7a;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 0.4px;
+    letter-spacing: 0;
     margin-top: 32px;
 }
 
@@ -939,10 +924,6 @@ a {
     background-color: #e6e6e6;
     margin-top: 89px;
 }
-
-
-
-
 
 .mega-box {
     border-radius: 5px;
@@ -955,13 +936,13 @@ a {
 }
 
 .mega-box:before {
-    content: "";    
+    content: "";
     display: block;
     height: 12px;
     width: 12px;
     background-color: #ffffff;
     position: absolute;
-     top: -7px;
+    top: -7px;
     left: 37px;
     transform: rotate(45deg);
     border-top: 1px solid #e6e6e6;
@@ -978,10 +959,10 @@ a {
 
 .mega-flex-heading {
     color: #232323;
-font-family: "Lato";
-font-size: 14px;
-font-weight: 400;
-text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
     border-bottom: 1px solid #e8e8e8;
     width: 235px;
     padding-bottom: 8px;
@@ -995,14 +976,14 @@ text-transform: uppercase;
 .mega-menu-links:hover {
     color: #f16d7f;
 }
+
 .mega-menu-links {
     color: #646464;
-font-family: "Lato";
-font-size: 14px;
-font-weight: 400;
-line-height: 28px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
 }
-
 
 .mega-flex {
     margin-right: 40px;
@@ -1024,8 +1005,6 @@ line-height: 28px;
     right: 0;
 }
 
-
-
 .mega-box-right {
     border-radius: 5px;
     background-color: #ffffff;
@@ -1037,13 +1016,13 @@ line-height: 28px;
 }
 
 .mega-box-right:before {
-    content: "";    
+    content: "";
     display: block;
     height: 12px;
     width: 12px;
     background-color: #ffffff;
     position: absolute;
-     top: -7px;
+    top: -7px;
     right: 55px;
     transform: rotate(45deg);
     border-top: 1px solid #e6e6e6;
@@ -1054,12 +1033,10 @@ line-height: 28px;
     display: flex;
 }
 
-
-
 .icon {
     width: 32px;
-height: 32px;
-background-color: #ffffff;
+    height: 32px;
+    background-color: #ffffff;
     display: block;
     text-align: center;
     line-height: 32px;
@@ -1072,10 +1049,10 @@ background-color: #ffffff;
 }
 
 .faceb {
-        display: flex;
+    display: flex;
     width: 191px;
     justify-content: space-between;
-        margin-top: 24px;
+    margin-top: 24px;
     margin-bottom: 24px;
 }
 
@@ -1085,7 +1062,7 @@ background-color: #ffffff;
     font-weight: 400;
     text-decoration: none;
     font-family: "Lato", sans-serif;
-    letter-spacing: 0.38px;
+    letter-spacing: 0;
     display: flex;
     align-items: center;
 }
@@ -1111,20 +1088,18 @@ background-color: #ffffff;
 }
 
 .acc-box:before {
-    content: "";    
+    content: "";
     display: block;
     height: 12px;
     width: 12px;
     background-color: #ffffff;
     position: absolute;
-     top: -7px;
+    top: -7px;
     left: 37px;
     transform: rotate(45deg);
     border-top: 1px solid #e6e6e6;
     border-left: 1px solid #e6e6e6;
 }
-
-
 
 .list-acc {
     position: relative;
@@ -1164,37 +1139,37 @@ background-color: #ffffff;
 }
 
 .product-delete {
-        display: flex;
+    display: flex;
     align-items: center;
     color: #c0c0c0;
-font-family: "Font Awesome";
-font-size: 16px;
-font-weight: 400;
-text-transform: uppercase;
+    font-family: "Font Awesome", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .name-prod-card {
     color: #222222;
-font-family: "Lato";
-font-size: 12px;
-font-weight: 800;
-text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .stars {
     color: #e4af48;
-font-family: "Font Awesome";
-font-size: 12px;
-font-weight: 400;
-text-transform: uppercase;
+    font-family: "Font Awesome", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .price-card {
     color: #f16d7f;
-font-family: "Lato";
-font-size: 12px;
-font-weight: 400;
-text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .x {
@@ -1203,10 +1178,10 @@ text-transform: uppercase;
 
 .total-500 {
     color: #222222;
-font-family: "Lato";
-font-size: 16px;
-font-weight: 700;
-text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
     text-align: right;
     margin-top: 19px;
 }
@@ -1215,13 +1190,9 @@ text-transform: uppercase;
     float: left;
 }
 
-.500usd {
-    float:right;
-}
-
 .checkout {
-height: 50px;
-border: 1px solid #eaeaea;
+    height: 50px;
+    border: 1px solid #eaeaea;
     align-items: center;
     margin-top: 11px;
     display: flex;
@@ -1235,19 +1206,17 @@ border: 1px solid #eaeaea;
 }
 
 .checkout-link {
-   
-font-family: "Lato";
-font-size: 14px;
-font-weight: 700;
-text-transform: uppercase; 
+
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
-
-
 
 .card-buttom {
     margin-top: 21px;
 }
 
 .facebook {
-        margin-left: 45%;
+    margin-left: 45%;
 }
