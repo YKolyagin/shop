@@ -43,6 +43,7 @@ body {}
 .header-right {
     display: flex;
     align-items: center;
+    margin-right: 3%;
 }
 
 .logo {
@@ -934,14 +935,12 @@ a {
 
 .rights {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #e6e6e6;
     margin-top: 89px;
 }
 
-.facebook {
-    margin-left: 690px;
-}
+
 
 
 
@@ -1247,4 +1246,8 @@ text-transform: uppercase;
 
 .card-buttom {
     margin-top: 21px;
+}
+
+.facebook {
+        margin-left: 45%;
 }
