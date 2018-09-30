@@ -71,6 +71,7 @@
   align-items: center;
   list-style-type: none;
   border: 1px solid #f16d7f;
+  transition: background-color, border, color, 0.4s linear;
 }
 
 .batton-site:hover {
@@ -82,6 +83,7 @@
 .batton-site:hover .my-acc {
   background-color: #ffffff;
   color: #f16d7f;
+  background: none;
 }
 
 .bran {
@@ -765,6 +767,7 @@ a {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0;
+  transition: background-color, border, color, 0.4s linear;
 }
 
 .submit:hover {
@@ -1066,6 +1069,7 @@ a {
   letter-spacing: 0;
   display: flex;
   align-items: center;
+  transition: background-color, border, color, 0.4s linear;
 }
 
 .my-acc-text {
@@ -1257,7 +1261,6 @@ a {
 
 .bread-a:hover {
   font-family: "Lato - Bold", sans-serif;
-  font-weight: 700;
   color: #f16d7f;
 }
 
@@ -1358,14 +1361,7 @@ a {
 }
 
 .product-quantity {
-  margin-left: 8%;
-  width: 54px;
-  height: 30px;
-  border: 1px solid #eaeaea;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 7%;
 }
 
 .product-shiping {
@@ -1410,17 +1406,6 @@ a {
   margin-top: 44px;
   margin-left: 20px;
   margin-right: 20px;
-}
-
-.clear {
-  border: 1px solid #eaeaea;
-  background-color: #ffffff;
-  padding: 19px 39px;
-  color: #4a4a4a;
-  font-family: "Lato", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 .form-adress {
@@ -1480,6 +1465,12 @@ a {
   font-weight: 700;
   text-transform: uppercase;
   padding: 0 15px;
+  transition: background-color, border, color, 0.4s linear;
+}
+
+.send:hover {
+  border: 1px solid #ef5b70;
+  color: #ef5b70;
 }
 
 .coupon-text {
@@ -1540,6 +1531,43 @@ a {
 .button-cart {
   margin-top: 17px;
   margin-left: 48px;
+}
+
+.delete {
+  color: #c0c0c0;
+  font-family: "Font Awesome", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.product-quantity-input {
+  width: 54px;
+  height: 30px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.clear-button {
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  padding: 19px 39px;
+  color: #4a4a4a;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  outline: none;
+  transition: background-color, border, color, 0.4s linear;
+}
+
+.clear-button:hover {
+  border: 1px solid #ef5b70;
+  color: #ef5b70;
 }
 
 /*# sourceMappingURL=style.css.map */
