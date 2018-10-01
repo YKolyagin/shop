@@ -153,7 +153,6 @@
 .cart-img {
   width: 32px;
   height: 29px;
-  padding-right: 26px;
 }
 
 .my-acc1 {
@@ -1099,7 +1098,7 @@ a {
   background-color: #ffffff;
   position: absolute;
   top: -7px;
-  left: 37px;
+  left: 63px;
   transform: rotate(45deg);
   border-top: 1px solid #e6e6e6;
   border-left: 1px solid #e6e6e6;
@@ -1111,6 +1110,7 @@ a {
 
 .img-link {
   position: relative;
+  margin-right: 26px;
 }
 
 .card-hover {
@@ -1529,7 +1529,8 @@ a {
 
 .button-cart {
   margin-top: 17px;
-  margin-left: 48px;
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 .delete {
@@ -1551,6 +1552,11 @@ a {
   text-align: center;
 }
 
+.product-quantity-input::-webkit-outer-spin-button,
+.product-quantity-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 .clear-button {
   border: 1px solid #eaeaea;
   background-color: #ffffff;
@@ -1567,6 +1573,142 @@ a {
 .clear-button:hover {
   border: 1px solid #ef5b70;
   color: #ef5b70;
+}
+
+.checkout-adress {
+  list-style-type: decimal-leading-zero;
+  margin-left: 5%;
+  color: #222222;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.checkout-marker::-webkit-details-marker {
+  display: none;
+}
+
+.checkout-guest {
+  color: #222222;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 39px;
+}
+
+.register {
+  color: #b3b2b2;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: none;
+  margin-top: 15px;
+}
+
+.rotate {
+  transition: 0.8s, ease-in-out;
+  transition-property: transform;
+}
+
+.rotate:hover {
+  transform: rotate(360deg);
+}
+
+.radio {
+  color: #222222;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.radio-blok {
+  margin-top: 14px;
+}
+
+.shiping-adress {
+  padding-left: 34px;
+  margin-left: -28px;
+  display: flex;
+}
+
+.profit {
+  color: #b3b2b2;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: none;
+}
+
+.profit-blok {
+  margin-top: 34px;
+}
+
+.continue {
+  margin-top: 38px;
+  margin-bottom: 79px;
+}
+
+.right-form {
+  margin-left: 33%;
+}
+
+.email-adress {
+  display: flex;
+  flex-direction: column;
+  margin-top: 27px;
+}
+
+.email-width {
+  width: 390px;
+}
+
+.stars-adress {
+  color: #ff0d0d;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.forgot {
+  color: #222222;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 56px;
+  margin-left: 32px;
+  text-transform: none;
+}
+
+.login {
+  display: flex;
+}
+
+.required {
+  color: #ff0d0d;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 22px;
+  text-transform: none;
+}
+
+.checkout-list {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.checkout-block {
+  margin-top: 64px;
 }
 
 /*# sourceMappingURL=style.css.map */
