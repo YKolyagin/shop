@@ -1715,4 +1715,12 @@ a {
   margin-top: 64px;
 }
 
+.product-img {
+  transition: 0.4s;
+}
+
+.product-img:hover {
+  transform: scale(2, 2);
+}
+
 /*# sourceMappingURL=style.css.map */
