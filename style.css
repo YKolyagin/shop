@@ -947,7 +947,7 @@ a {
 
 .menu-list {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .menu-list:hover .mega-box {
@@ -1078,7 +1078,7 @@ a {
   display: none;
   top: 93px;
   right: -220px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .card-hover:hover .acc-box {
@@ -2037,7 +2037,7 @@ a {
 }
 
 .product-com {
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .health-img {
@@ -2060,6 +2060,234 @@ a {
   justify-content: center;
   width: 100%;
   display: none;
+}
+
+.slider-list {
+  list-style-type: none;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  height: 777px;
+  background-color: #f7f7f7;
+  margin-top: 1px;
+  position: absolute;
+  width: 100%;
+}
+
+.slider {
+  position: relative;
+}
+
+.prev, .next {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  color: #ffffff;
+  background-color: #2a2a2a;
+  top: 50%;
+  margin-top: -30px;
+  opacity: 0.4;
+  cursor: pointer;
+  -webkit-transition: opacity 200ms ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.slider-list:target {
+  z-index: 1;
+}
+
+.description {
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  margin-top: 700px;
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  position: relative;
+  z-index: 3;
+}
+
+.description-name {
+  border-bottom: 1px solid #eaeaea;
+  width: 642px;
+  text-align: center;
+}
+
+.wom-collection {
+  color: #f16d7f;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-top: 73px;
+}
+
+.dash-collection {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.cheap {
+  color: #4d4d4d;
+  font-family: "Lato - Black", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.description-text {
+  color: #5e5e5e;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 67px;
+}
+
+.material {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 28px;
+}
+
+.material-text {
+  color: #b9b9b9;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.value-material {
+  color: #2f2f2f;
+  margin-left: 10px;
+}
+
+.single-price {
+  margin-top: 28px;
+  font-size: 30px;
+  margin-bottom: 43px;
+}
+
+.color-list {
+  width: 144px;
+  list-style-type: none;
+  margin-bottom: 18px;
+  margin-top: 16px;
+}
+
+.color-drop {
+  color: #bcbcbc;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  outline: none;
+  display: flex;
+  padding: 15px;
+  border: 1px solid #eaeaea;
+}
+
+.color-drop::-webkit-details-marker {
+  display: none;
+}
+
+.color-drop:focus .drop-arrow {
+  transform: rotate(180deg);
+}
+
+.red {
+  color: #ef5b70;
+  margin-right: 10px;
+}
+
+.arrow-color {
+  margin-left: 67px;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.details {
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.chose-size {
+  width: 144px;
+  list-style-type: none;
+  margin-bottom: 18px;
+  margin-left: 60px;
+}
+
+.choose {
+  display: flex;
+  margin-top: 63px;
+  justify-content: center;
+}
+
+.choose-input {
+  width: 100px;
+  height: 35px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  margin-top: 16px;
+  padding: 0 15px;
+}
+
+.choose-color {
+  margin-left: 15px;
+}
+
+.choose-quantity {
+  margin-left: 60px;
+}
+
+.add-img-single {
+  color: #ef5b70;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #ef5b70;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-left: 9%;
+  margin-right: 7%;
+}
+
+.like {
+  color: #4d4d4d;
+  font-family: "Lato - Black", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */
