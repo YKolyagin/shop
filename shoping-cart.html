@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="style.sass"/>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css-jqwery-ui.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext"
           rel="stylesheet">
@@ -24,96 +24,54 @@
                 <p class="bran">BRAN</p><span class="D">D</span>
             </a>
             <form class="header-form" action="#">
-                <label for="brows"></label>
-                <select class="browse" name="brows" id="brows">
-                    <optgroup class="women" label="WOMEN">
-                        <option class="browse1" value="browse">Browse</option>
-                        <option class="browse2" value="Dresses">Dresses</option>
-                        <option class="browse2" value="Tops">Tops</option>
-                        <option class="browse2" value="Sweaters">Sweaters/Knits</option>
-                        <option class="browse2" value="Jackets">Jackets/Coats</option>
-                        <option class="browse2" value="Blazers">Blazers</option>
-                        <option class="browse2" value="Denim">Denim</option>
-                        <option class="browse2" value="Leggings">Leggings/Pants</option>
-                        <option class="browse2" value="Skirts">Skirts/Shorts</option>
-                        <option class="browse2" value="Accessories">Accessories</option>
-                    </optgroup>
-                    <optgroup class="women" label="MEN">
-                        <option class="browse2" value="Tees">Tees/Tank tops</option>
-                        <option class="browse2" value="Shirts">Shirts/Polos</option>
-                        <option class="browse2" value="Sweaters">Sweaters</option>
-                        <option class="browse2" value="Sweatshirts">Sweatshirts/Hoodies</option>
-                        <option class="browse2" value="Blazers">Blazers</option>
-                        <option class="browse2" value="Jackets">Jackets/vests</option>
-                    </optgroup>
-                </select>
+                <div class="browsHover">
+                    <div class="browse"><p id="textBrows">Browse</p><span class="browse-arrow"><i class="fas fa-sort-down"></i></span></div>
+                    <div class="drop-browseOn">
+                        <p class="drop-group">WOMEN</p>
+                        <ul class="ulDrop">
+                            <li>Dresses</li>
+                            <li>Tops</li>
+                            <li>Sweaters</li>
+                            <li>Jackets/Coats</li>
+                            <li>Blazers</li>
+                            <li>Denim</li>
+                            <li>Leggings/Pants</li>
+                            <li>Skirts/Shorts</li>
+                            <li>Accessories</li>
+                        </ul>
+                        <p class="drop-group">MEN</p>
+                        <ul class="ulDrop">
+                            <li>Tees/Tank tops</li>
+                            <li>Shirts/Polos</li>
+                            <li>Sweaters</li>
+                            <li>Sweatshirts/Hoodies</li>
+                            <li>Blazers</li>
+                            <li>Jackets/vests</li>
+                        </ul>
+                    </div>
+                </div>
                 <input class="search" type="text" placeholder="Search for Item...">
                 <button type="submit" class="batton-search" name="batton-search" id="batton-search"></button>
             </form>
         </div>
         <div class="header-right">
-            <div class="card-hover">
-                <a class="img-link" href="#"><img class="cart-img" src="img/Forma_1.svg" alt="cart">
-                    <!--<div class="acc-box">-->
-                        <!--<div class="acc-flex">-->
-                            <!--<div class="product-card">-->
-                                <!--<div class="img-prod-card">-->
-                                    <!--<img src="img/Layer_43.jpg" alt="layer_43"></div>-->
-                                <!--<div class="product-name-card">-->
-                                    <!--<p class="name-prod-card">Rebox Zane</p>-->
-                                    <!--<p class="stars">-->
-                                        <!--<i class="fas fa-star"></i>-->
-                                        <!--<i class="fas fa-star"></i>-->
-                                        <!--<i class="fas fa-star"></i>-->
-                                        <!--<i class="fas fa-star"></i>-->
-                                        <!--<i class="fas fa-star-half-alt"></i>-->
-                                    <!--</p>-->
-                                    <!--<p class="price-card">1 <span class="x">x</span> $250</p>-->
-                                <!--</div>-->
-                                <!--<div class="product-delete">-->
-                                    <!--<i class="fas fa-times-circle"></i>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="product-card">-->
-                                <!--<div class="img-prod-card">-->
-                                    <!--<img src="img/Layer_44.jpg" alt="layer_43"></div>-->
-                                <!--<div class="product-name-card">-->
-                                    <!--<p class="name-prod-card">Rebox Zane</p>-->
-                                    <!--<p class="stars">-->
-                                        <!--<i class="fas fa-star"></i>-->
-                                        <!--<i class="fas fa-star"></i>-->
-                                        <!--<i class="fas fa-star"></i>-->
-                                        <!--<i class="fas fa-star"></i>-->
-                                        <!--<i class="fas fa-star-half-alt"></i>-->
-                                    <!--</p>-->
-                                    <!--<p class="price-card">1 <span class="x">x</span> $250</p>-->
-                                <!--</div>-->
-                                <!--<div class="product-delete">-->
-                                    <!--<i class="fas fa-times-circle"></i>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="total-500">-->
-                                <!--<p><span class="total">TOTAL</span>$500.00</p>-->
-                            <!--</div>-->
-                            <!--<div class="card-buttom">-->
-                                <!--<a class="checkout-link" href="#">-->
-                                    <!--<div class="checkout">-->
-                                        <!--<p>Checkout</p>-->
-                                    <!--</div>-->
-                                <!--</a>-->
-                                <!--<a class="checkout-link" href="#">-->
-                                    <!--<div class="checkout">-->
-                                        <!--<p>Go to cart</p>-->
-                                    <!--</div>-->
-                                <!--</a>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                </a>
+            <div class="card-shiping">
+                <a class="img-link" href="shoping-cart.html"><img class="cart-img" src="img/Forma_1.svg" alt="cart"></a>
+                <div class="before-arrow">
+                    <div class="acc-box">
+                        <div id="cart" class="acc-flex">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <ul class="batton-site">
+            <ul class="batton-site batton-hover">
                 <li class="list-acc"><a class="my-acc" href="#">
                     <p class="my-acc-text">My Account</p><i class="fas fa-caret-down"></i>
+                    <ul class="accDrop">
+                        <li>Settings</li>
+                        <li>Orders</li>
+                        <li>Exit</li>
+                    </ul>
                 </a>
             </ul>
         </div>
@@ -415,75 +373,10 @@
         <p>Subtotal</p>
         <p>ACTION</p>
     </div>
-    <div class="product-shop-cart">
-        <div class="product-img"><img src="img/Product_Image-1.jpg" alt="layer-43-1"></div>
-        <div class="product-text">
-            <a href="#"><p class="product-name">Mango  People  T-shirt</p></a>
-            <p class="stars-cart">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </p>
-            <p class="color">Color:<span class="size">Red</span></p>
-            <p class="color-1">Size: <span class="size">Xll</span></p>
-        </div>
-        <div class="product-price"><p>$150</p></div>
-        <div class="product-quantity"><label>
-            <input class="product-quantity-input" type="number" value="2">
-        </label></div>
-        <div class="product-shiping">FREE</div>
-        <div class="product-subtotal">$300</div>
-        <div class="product-action"><a class="delete" href="#"><i class="fas fa-times-circle"></i></a></div>
-    </div>
-    <div class="product-shop-cart">
-        <div class="product-img"><img src="img/Product_Image-1.jpg" alt="layer-43-1"></div>
-        <div class="product-text">
-            <a href="#"><p class="product-name">Mango  People  T-shirt</p></a>
-            <p class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </p>
-            <p class="color">Color:<span class="size">Red</span></p>
-            <p class="color-1">Size: <span class="size">Xll</span></p>
-        </div>
-        <div class="product-price"><p>$150</p></div>
-        <div class="product-quantity"><label>
-            <input class="product-quantity-input" type="number" value="2">
-        </label></div>
-        <div class="product-shiping">FREE</div>
-        <div class="product-subtotal">$300</div>
-        <div class="product-action"><a class="delete" href="#"><i class="fas fa-times-circle"></i></a></div>
-    </div>
-    <div class="product-shop-cart">
-        <div class="product-img"><img src="img/Product_Image-1.jpg" alt="layer-43-1"></div>
-        <div class="product-text">
-            <a href="#"><p class="product-name">Mango  People  T-shirt</p></a>
-            <p class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </p>
-            <p class="color">Color:<span class="size">Red</span></p>
-            <p class="color-1">Size: <span class="size">Xll</span></p>
-        </div>
-        <div class="product-price"><p>$150</p></div>
-        <div class="product-quantity"><label>
-            <input class="product-quantity-input" type="number" value="2">
-        </label></div>
-        <div class="product-shiping">FREE</div>
-        <div class="product-subtotal">$300</div>
-        <div class="product-action"><a class="delete" href="#"><i class="fas fa-times-circle"></i></a></div>
-    </div>
-    <div class="product-clear">
-        <div><a href="#"><button class="clear-button" type="button">cLEAR SHOPPING CART</button></a></div>
-        <div><a href="#"><button class="clear-button" type="button">cONTINUE sHOPPING</button></a></div>
+    <div id="shopingCart"></div>
+        <div class="product-clear">
+        <div><button class="clear-button" type="button">cLEAR SHOPPING CART</button></div>
+        <div><a href="product.html"><button class="clear-button" type="button">cONTINUE sHOPPING</button></a></div>
     </div>
 </section>
 <div class="container form-cart">
@@ -529,10 +422,10 @@
                     <div class="comment-text2">
                         <p><span class="bin">Bin Burhan</span> Dhaka, Bd</p>
                     </div>
-                    <div class="comment-dash">
-                        <img src="img/dash-grey.svg" alt="dash-grey">
-                        <img src="img/dash-pink.svg" alt="dash-pink">
-                        <img src="img/dash-grey.svg" alt="dash-grey">
+                    <div id="comment" class="comment-dash">
+                        <img id="comm1" class="comment-hover" src="img/dash-grey.svg" alt="dash-grey">
+                        <img id="comm2" class="comment-hover" src="img/dash-pink.svg" alt="dash-pink">
+                        <img id="comm3" class="comment-hover" src="img/dash-grey.svg" alt="dash-grey">
                     </div>
                 </div>
             </article>
@@ -625,6 +518,14 @@
         </div>
     </div>
 </footer>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<script src="js/Product.js"></script>
+<script src="js/Cart.js"></script>
+<script src="js/shopingCart.js"></script>
+<script src="js/ProductList.js"></script>
+<script src="js/comments.js"></script>
+<script src="js/shippingCardMain.js"></script>
 </body>
 
 </html>

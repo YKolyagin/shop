@@ -13,12 +13,15 @@
   height: 100px
 
 
+.imgCard
+  height: 85px
+  width: 72px
+
 .header
   height: 100px
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.17)
   border: 1px solid #ececec
   background-color: #ffffff
-
 
 .container
   width: 1140px
@@ -101,13 +104,19 @@
 
 
 .browse
+  cursor: pointer
   height: 38px
   border-radius: 3px 0 0 3px
   border: 1px solid #e6e6e6
   background: #cdcdcc linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%)
   display: flex
   align-items: center
-  padding-left: 15px
+  padding: 0 15px 0 15px
+  color: #222222
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 300
+  line-height: 32px
 
 
 .browse1
@@ -125,9 +134,9 @@
   background-color: #ffffff
 
 .search
+  outline: none
   width: 317px
-  height: 36px
-  border-radius: 0 3px 3px 0
+  height: 38px
   border: 1px solid #e6e6e6
   background-color: #ffffff
   padding-left: 16px
@@ -136,9 +145,10 @@
 
 
 .batton-search
+  outline: none
   display: flex
   align-items: center
-  height: 38px
+  height: 40px
   width: 36px
   border-radius: 0 3px 3px 0
   border: 1px solid #e6e6e6
@@ -224,16 +234,19 @@
 .news2
   width: 560px
   height: 261px
+  transition-duration: 1s
 
 .news3
   width: 560px
   height: 261px
   background-color: #dadad2
+  transition-duration: 1s
 
 .news4
   width: 560px
   height: 542px
   padding-top: 20px
+  transition-duration: 1s
 
 .news-left
   display: flex
@@ -253,6 +266,27 @@
 .news1
   width: 560px
   height: 542px
+  transition-duration: 1s
+
+.news1:hover
+  transform: scale(1.05,1.05)
+  z-index: 10
+  transition-duration: 1s
+
+.news2:hover
+  transform: scale(1.05,1.05)
+  z-index: 10
+  transition-duration: 1s
+
+.news3:hover
+  transform: scale(1.05,1.05)
+  z-index: 10
+  transition-duration: 1s
+
+.news4:hover
+  transform: scale(1.05,1.05)
+  z-index: 10
+  transition-duration: 1s
 
 .img-layer-37
   padding-left: 149px
@@ -444,8 +478,9 @@ a
   position: absolute
   top: 98px
   justify-content: center
-  width: 100%
+  left: 25%
   display: none
+  z-index: 10
 
 .item
   display: block
@@ -454,6 +489,7 @@ a
   margin-top: 100px
 
 .add-img
+  background: initial
   color: #ffffff
   font-family: "Lato", sans-serif
   font-size: 13px
@@ -566,13 +602,15 @@ a
 .com-img
   border-radius: 100%
   margin-top: 111px
+  height: 83px
+  width: 83px
 
 .comment-img-text
   display: flex
   justify-content: center
 
 .comment-text
-  margin-top: 123px
+  margin-top: 52px
   margin-right: 72px
 
 .comment-text1
@@ -605,6 +643,33 @@ a
 
 .comment-dash
   margin-top: 41px
+  cursor: pointer
+  width: 130px
+
+#slider-range
+  width: 262px
+  height: 6px
+  border-radius: 3px
+  background-color: #f0f0f0
+  border: none
+  outline: none
+
+#slider-range>div
+  width: 124px
+  height: 6px
+  background-color: #f16d7f
+  border: none
+
+#slider-range>span
+  width: 14px
+  height: 14px
+  background-color: #f16d7f
+  border-radius: 50%
+  border: none
+  outline: none
+
+.comment-hover:hover
+  transform: scale(1.05, 2)
 
 .sea
   height: 438px
@@ -936,33 +1001,44 @@ a
 .my-acc-text
   margin-right: 8px
 
+.card-hover
+  padding-top: 67px
+  height: 100%
+
 
 .acc-box
   border-radius: 5px
   background-color: #ffffff
-  padding: 20px
+  padding: 0 20px 20px 20px
   border: 1px solid #e6e6e6
   position: absolute
-  display: none
-  top: 93px
-  right: -220px
+  display: flex
+  top: 86px
+  right: 46px
   z-index: 3
+  max-height: 430px
+  overflow: auto
 
-.card-hover:hover .acc-box
+.before-arrow
+  display: none
+
+.card-hover:hover .before-arrow
   display: flex
 
-.acc-box:before
+
+.before-arrow:before
   content: ""
   display: block
   height: 12px
   width: 12px
   background-color: #ffffff
   position: absolute
-  top: -7px
-  left: 63px
+  top: 79px
+  right: 308px
   transform: rotate(45deg)
   border-top: 1px solid #e6e6e6
   border-left: 1px solid #e6e6e6
+  z-index: 4
 
 .list-acc
   position: relative
@@ -971,7 +1047,7 @@ a
   position: relative
   margin-right: 26px
 
-.card-hover
+.card-shiping
   display: flex
   align-items: center
   padding-top: 9px
@@ -983,6 +1059,7 @@ a
   justify-content: space-between
   height: 101px
   width: 262px
+  padding-top: 20px
   border-bottom: 1px solid #ededed
 
 .product-name-card
@@ -991,7 +1068,6 @@ a
   flex-direction: column
   justify-content: space-between
   padding-bottom: 23px
-  margin-left: -43px
 
 .acc-flex
   width: 100%
@@ -1005,7 +1081,6 @@ a
   font-size: 16px
   font-weight: 400
   text-transform: uppercase
-
 
 .name-prod-card
   color: #222222
@@ -1073,6 +1148,7 @@ a
 
 .card-buttom
   margin-top: 21px
+  margin-bottom: 20px
 
 
 .facebook
@@ -1508,9 +1584,11 @@ a
 
 .product-img
   transition: .4s
+  height: 119px
+  width: 100px
 
 .product-img:hover
-  transform: scale(2, 2)
+  transform: scale(1.5, 1.5)
 
 .menu-list-women
   border-bottom: 3px solid #ef5b70
@@ -1985,10 +2063,7 @@ a
   align-items: center
   border-radius: 3px
   justify-content: center
-  margin-top: 60px
-  margin-bottom: 100px
-  margin-left: 9%
-  margin-right: 7%
+  margin: 60px 7% 100px 9%
 
 .like
   color: #4d4d4d
@@ -1999,3 +2074,79 @@ a
   text-transform: uppercase
   text-align: center
   margin-bottom: 80px
+
+.drop-browseOn
+  display: none
+
+
+.browsHover:hover  .drop-browseOn
+  display: block
+  cursor: pointer
+  position: absolute
+  top: 72px
+  border-radius: 5px
+  background-color: #ffffff
+  z-index: 5
+  border: 1px solid #e6e6e6
+  padding: 15px 20px 20px 20px
+
+.drop-browseOn:before
+  content: ""
+  display: block
+  height: 12px
+  width: 12px
+  background-color: #ffffff
+  position: absolute
+  top: -7px
+  left: 68px
+  transform: rotate(45deg)
+  border-top: 1px solid #e6e6e6
+  border-left: 1px solid #e6e6e6
+
+.ulDrop
+  list-style-type: none
+  padding: 16px 7px 30px
+  color: #4f4f4f
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 400
+  line-height: 28px
+
+.browse-arrow
+  width: 9px
+  color: #838383
+  font-family: "Font Awesome", sans-serif
+  font-size: 14px
+  font-weight: 400
+  line-height: 32px
+  padding-left: 10px
+
+.drop-group
+  border-bottom: 1px solid #e8e8e8
+  padding-bottom: 10px
+  color: #232323
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 700
+  line-height: 32px
+  text-transform: uppercase
+
+.accDrop
+  top: 32px
+  position: absolute
+  color: #838383
+  font-family: "Font Awesome", sans-serif
+  font-size: 14px
+  font-weight: 400
+  line-height: 32px
+  list-style-type: none
+  background-color: #ffffff
+  border: 1px solid #e6e6e6
+  padding: 10px
+  left: -20px
+  width: 114px
+  display: none
+  border-radius: 3px
+
+.batton-hover:hover .accDrop
+  display: block
